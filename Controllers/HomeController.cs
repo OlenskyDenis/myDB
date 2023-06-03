@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using myDB.Data;
 using myDB.Models;
 using System.Diagnostics;
 
@@ -6,16 +7,18 @@ namespace myDB.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly myDBContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(myDBContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var publications = _context.Publication.ToList();
+
+            return View(publications);
         }
 
         public IActionResult Privacy()
