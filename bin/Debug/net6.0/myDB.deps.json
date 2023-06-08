@@ -12,7 +12,8 @@
           "Microsoft.EntityFrameworkCore.Design": "8.0.0-preview.4.23259.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0-preview.4.23259.3",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.0-preview.4.23259.3",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.13"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.13",
+          "ckeditor-full": "4.21.0"
         },
         "runtime": {
           "myDB.dll": {}
@@ -52,6 +53,7 @@
           }
         }
       },
+      "ckeditor-full/4.21.0": {},
       "Humanizer.Core/2.14.1": {
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
@@ -2445,6 +2447,13 @@
       "sha512": "sha512-eHEiCO/8+MfNc9nH5dVew/+FvxdaGrkRL4OMNwIz0W79+wtJyEoeRlXJ3SrXhoy9XR58geBYKmzMR83VO7bcAw==",
       "path": "azure.identity/1.7.0",
       "hashPath": "azure.identity.1.7.0.nupkg.sha512"
+    },
+    "ckeditor-full/4.21.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RdllHEV62gFxbL4NEK7tlGUJYvbItmtM3CvE/0G+suUPoAt0WmGLQKSNX3erOMXQCZrNCM4yrzLPBYBfNbxUDw==",
+      "path": "ckeditor-full/4.21.0",
+      "hashPath": "ckeditor-full.4.21.0.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",

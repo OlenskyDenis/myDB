@@ -24,8 +24,8 @@ namespace myDB.Models
             {
                 var publication = new Publication
                 {
-                    Title = "Заголовок " + i,
-                    Description = "Опис " + i,
+                    Title = "Заголовок " + i+1,
+                    Description = "Опис " + i+1,
                 };
 
                 publicationList.Add(publication);

@@ -9,9 +9,7 @@
     @foreach (var publication in Model)
     {
         <ul>
-            <li>Id: @publication.Id</li>
-            <li>Title: @publication.Title</li>
-            <li>Description: @publication.Description</li>
+            <li><a href="Publications/Details/@publication.Id">@publication.Title</a></li>
         </ul>
     }
 </div>

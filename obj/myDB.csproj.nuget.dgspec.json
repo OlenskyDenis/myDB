@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GitHub\\myDB\\myDB.csproj": {}
+    "E:\\GitProjects\\myDB\\myDB.csproj": {}
   },
   "projects": {
-    "E:\\GitHub\\myDB\\myDB.csproj": {
+    "E:\\GitProjects\\myDB\\myDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GitHub\\myDB\\myDB.csproj",
+        "projectUniqueName": "E:\\GitProjects\\myDB\\myDB.csproj",
         "projectName": "myDB",
-        "projectPath": "E:\\GitHub\\myDB\\myDB.csproj",
-        "packagesPath": "C:\\Users\\darky\\.nuget\\packages\\",
-        "outputPath": "E:\\GitHub\\myDB\\obj\\",
+        "projectPath": "E:\\GitProjects\\myDB\\myDB.csproj",
+        "packagesPath": "C:\\Users\\Den\\.nuget\\packages\\",
+        "outputPath": "E:\\GitProjects\\myDB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\darky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Den\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,6 +64,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.13, )"
+            },
+            "ckeditor-full": {
+              "target": "Package",
+              "version": "[4.21.0, )"
             }
           },
           "imports": [
